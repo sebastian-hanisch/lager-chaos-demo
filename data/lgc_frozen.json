@@ -1,0 +1,207 @@
+{
+ "meta": {
+  "erzeugt_von": "tools/make_frozen.py",
+  "schwelle": 0.003,
+  "burn": 6000,
+  "rec": 6000
+ },
+ "fine_grid": {
+  "3": {
+   "lo": 1.677,
+   "hi": 2.397,
+   "n": 4000,
+   "n_chaotic": 4000,
+   "n_window": 0,
+   "runs_non_chaotic": 0,
+   "lam_min": 0.004397534410110172,
+   "gap": 0.00017999999999999993
+  },
+  "6": {
+   "lo": 1.52,
+   "hi": 2.381,
+   "n": 4000,
+   "n_chaotic": 3988,
+   "n_window": 0,
+   "runs_non_chaotic": 4,
+   "lam_min": 0.0015068721299992746,
+   "gap": 0.00021524999999999995
+  },
+  "12": {
+   "lo": 1.632,
+   "hi": 2.34,
+   "n": 4000,
+   "n_chaotic": 3942,
+   "n_window": 0,
+   "runs_non_chaotic": 35,
+   "lam_min": 0.0015698389209553825,
+   "gap": 0.000177
+  }
+ },
+ "gegenprobe": {
+  "alpha_lo": 1.677,
+  "alpha_hi": 2.397,
+  "n_alpha": 1000,
+  "n_start": 6,
+  "runs": 6000,
+  "n_chaotic": 6000,
+  "lam_min": 0.004232728921715703,
+  "burn": 12000,
+  "rec": 12000,
+  "start_range": [
+   -50.0,
+   50.0
+  ]
+ },
+ "pow2": {
+  "cap": 3000000,
+  "L": 3,
+  "D": 10.0,
+  "alpha2": 2.0000000014142136,
+  "scattered_seed": 35,
+  "scattered_range": [
+   -50.0,
+   50.0
+  ],
+  "einfach_alpha2": {
+   "n": 6,
+   "n_cycle": 5,
+   "periods": [
+    15,
+    30,
+    60,
+    62,
+    63
+   ],
+   "results": [
+    [
+     62,
+     17
+    ],
+    [
+     60,
+     17
+    ],
+    [
+     63,
+     42
+    ],
+    [
+     30,
+     9
+    ],
+    [
+     15,
+     2
+    ],
+    null
+   ]
+  },
+  "einfach_alpha2b": {
+   "n": 6,
+   "n_cycle": 0,
+   "periods": [],
+   "results": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "einfach_alpha11": {
+   "n": 6,
+   "n_cycle": 0,
+   "periods": [],
+   "results": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "gestreut_alpha2": {
+   "n": 100,
+   "n_cycle": 0,
+   "periods": [],
+   "results": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "gestreut_alpha2b": {
+   "n": 100,
+   "n_cycle": 0,
+   "periods": [],
+   "results": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "gestreut_alpha11": {
+   "n": 100,
+   "n_cycle": 0,
+   "periods": [],
+   "results": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ }
+}
