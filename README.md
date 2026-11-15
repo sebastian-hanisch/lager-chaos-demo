@@ -1,7 +1,6 @@
 # Chaos im Lager – Verzögerung plus Klemmung – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-lager-chaos-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-lager-chaos-demo.streamlit.app/)**
 
 Stück der Linie **Dynamische Systeme** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Die Linie fragt, was passiert, wenn man eine Regel immer wieder auf ihr eigenes Ergebnis anwendet:
 Ruhepunkt, Kreislauf oder Chaos, und was davon bleibt im Rechner. Dieses Stück hängt an zwei Vorgängern: [`lyapunov-chaos-demo`](https://github.com/sebastian-hanisch/lyapunov-chaos-demo) misst den Lyapunov-Exponenten an einer eindimensionalen Abbildung
